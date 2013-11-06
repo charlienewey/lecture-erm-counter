@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Main body sections */
+@font-face {
+	font-family: oswald;
+	src: url('Oswald-Regular.ttf');
+}
+
+body { 
+	font: 80% oswald, sans-serif;
+	text-align: justify;
+	background: #000000;
+	color: #C0C0C0;
+	margin: 0; 
+	padding: 0;
+}
+	
+/* Formatting for main page div sections using IDs */
+#main {
+	margin: 0 auto;
+	width: 65%;
+	min-width: 720px;
+}
+
+#header {
+	text-align: center;
+	/* background: #C0C0C0; */
+	color: #C0C0C0;
+	width: 80%;
+	margin: -1px auto;
+	border: 1px solid white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#counter_box {
+	text-align: center;
+	font-size: 350px;
+}
